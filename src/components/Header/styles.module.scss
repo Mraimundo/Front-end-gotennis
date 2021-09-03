@@ -1,0 +1,40 @@
+.headerContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 36rem;
+  height: 6.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: var(--white);
+  padding-right: 2rem;
+
+  p {
+    margin-right: 2rem;
+    padding: 0.25rem 0 0.25rem 2rem;
+  }
+
+  // span {
+  //   margin-left: auto;
+  //   text-transform: capitalize;
+  // }
+}
+
+.userButton {
+  width: 161px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  background: var(--button-register);
+  border-radius: 50px;
+  cursor: pointer;
+
+  button {
+    border: none;
+    background: none;
+    margin-left: 1rem;
+  }
+}

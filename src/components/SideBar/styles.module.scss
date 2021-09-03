@@ -1,0 +1,88 @@
+.sidebarMenu {
+  position: fixed;
+  width: 17.43rem;
+  height: 30.25rem;
+}
+
+.toogleMenu {
+  width: 5.43rem;
+  height: 4.12rem;
+  text-align: center;
+  padding: 2rem 2rem;
+  margin-bottom: 0.1rem;
+  background: var(--white);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.mainMenu {
+  width: 14.43rem;
+  height: 24.25rem;
+  padding: 1.5rem 1rem;
+  margin-bottom: 3rem;
+  background: var(--white);
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  ul li {
+    list-style: none;
+  }
+}
+
+.activemain {
+  width: 5.43rem;
+  height: 24.25rem;
+  span {
+    display: none;
+  }
+}
+
+.menuItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  color: #0a2463;
+
+  span {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 97.7%;
+    letter-spacing: -0.03em;
+  }
+
+  &:hover {
+    color: #ddd92a;
+    cursor: pointer;
+  }
+
+  div {
+    margin-right: 1rem;
+    svg {
+      width: 41px;
+      height: 41px;
+    }
+  }
+}
+
+.footerMenu {
+  width: 14.43rem;
+  height: 10.25rem;
+  background: var(--white);
+  padding: 1.5rem 1rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  ul li {
+    list-style: none;
+  }
+}
+
+.activefooter {
+  width: 5.43rem;
+  height: 10.25rem;
+  span {
+    display: none;
+  }
+}

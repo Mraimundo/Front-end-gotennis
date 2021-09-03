@@ -1,0 +1,41 @@
+.sideContainer {
+  width: 36rem;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("/banner.svg");
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.headerContainer {
+  margin: auto;
+  margin-top: 3.125rem;
+}
+
+.footerContainer {
+  padding-bottom: 20%;
+
+  h1 {
+    width: 33.562rem;
+    padding: 0 2rem 0 2rem;
+    text-align: center;
+    font-weight: bold;
+    line-height: 97.7%;
+    letter-spacing: -0.03em;
+    color: var(--white);
+  }
+  p {
+    width: 27.062rem;
+    padding: 0 2rem 0 4rem;
+    margin-top: 1.25rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: var(--white);
+  }
+}

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+
+  --background-color: #f7f7f7;
+
+  --button-register: #ddd92a;
+  --button-register-facebook: #2174ee;
+  --button-register-google: #f7f7f7;
+  --text-button: #0a2463;
+  --color-text: rgba(64, 75, 101, 0.7);
+  --color-border: rgba(64, 75, 101, 0.7);
+
+  --color-text-simple: #2d2a32;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--background-color);
+}
+
+body,
+input,
+textarea,
+button {
+  font: 600 1rem Sora, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  font-family: Sora, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+}

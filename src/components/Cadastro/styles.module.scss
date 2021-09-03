@@ -1,0 +1,94 @@
+.cadastroContainer {
+  padding: 3rem 2rem;
+  width: 26rem;
+
+  background: var(--white);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    margin-bottom: 1rem;
+    color: var(--text-button);
+  }
+
+  .emptyFacebook {
+    width: 100%;
+    height: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background: var(--button-register-facebook);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 0.625rem;
+
+    button {
+      margin-left: 1.5rem;
+      border: none;
+      background: none;
+      color: var(--white);
+      font-family: Sora;
+      font-size: 1rem;
+    }
+  }
+
+  .emptyGoogle {
+    width: 100%;
+    height: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    background: var(--button-register-google);
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+    button {
+      margin-left: 1.5rem;
+      border: none;
+      background: none;
+    }
+  }
+
+  p {
+    margin-bottom: 1rem;
+    font-family: Sora;
+    color: var(--color-text-simple);
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+      width: 100%;
+      height: 3.68rem;
+      padding: 0 0.85rem;
+      background: var(--button-register-google);
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      border: none;
+      color: var(--color-text);
+    }
+    .emptyEmail {
+      margin-bottom: 1.5rem;
+    }
+
+    button {
+      width: 100%;
+      height: 3.68rem;
+      padding: 0 0.85rem;
+      background: var(--button-register);
+      border-radius: 50px;
+      border: none;
+      color: var(--text-button);
+    }
+  }
+}
