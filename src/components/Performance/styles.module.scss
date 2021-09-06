@@ -1,0 +1,74 @@
+.performanceContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.performanceContent {
+  width: 100%;
+  max-width: 940px;
+  margin-top: 2rem;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+
+  .buttonCorBlue {
+    width: 100%;
+    max-width: 12rem;
+    height: 3.68rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0.85rem;
+    background: #0a2463;
+    border-radius: 50px;
+    border: none;
+    color: var(--white);
+    margin-right: 2rem;
+
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 97.7%;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+
+  button {
+    width: 100%;
+    max-width: 12rem;
+    height: 3.68rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.85rem;
+    background: rgba(64, 75, 101, 0.1);
+    border-radius: 50px;
+    border: none;
+    color: #0a2463;
+
+    p {
+      margin-right: 1rem;
+
+      font-family: Sora;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 97.7%;
+      text-align: center;
+      letter-spacing: -0.02em;
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}

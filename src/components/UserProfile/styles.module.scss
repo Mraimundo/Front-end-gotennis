@@ -9,8 +9,12 @@
 .profileContent {
   width: 100%;
   max-width: 940px;
-  height: 232px;
+  height: 220px;
   background: var(--white);
+
+  hr {
+    margin-top: 1.3rem;
+  }
 }
 
 .profileContentInfo {
@@ -21,10 +25,30 @@
   padding: 20px 0px 0px 20px;
   margin-bottom: 2rem;
 
+  div {
+    p {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.3rem;
+      line-height: 97.7%;
+      letter-spacing: -0.03em;
+      color: #0a2463;
+    }
+    span {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 97.7%;
+      color: rgba(64, 75, 101, 0.7);
+    }
+  }
+
   .sociaMidia {
     display: flex;
     justify-content: space-between;
-    padding: 20px 20px 0 0px;
+    padding: 10px 20px 0 0px;
 
     div {
       margin-left: 0.4rem;
@@ -36,6 +60,17 @@
   display: flex;
   justify-content: space-between;
   padding: 20px 0px 0px 20px;
+
+  .info {
+    p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.1rem;
+      line-height: 140%;
+      color: rgba(64, 75, 101, 0.7);
+    }
+  }
 }
 
 .contentFooter {
@@ -43,5 +78,57 @@
   display: flex;
   div {
     margin-left: 1rem;
+    p {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.5rem;
+      line-height: 97.7%;
+      letter-spacing: -0.03em;
+      color: #0a2463;
+    }
+    span {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 97.7%;
+      color: rgba(64, 75, 101, 0.7);
+    }
+  }
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 940px;
+  height: 47px;
+  background: var(--white);
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      list-style: none;
+      margin-left: 2rem;
+      cursor: pointer;
+
+      font-family: Sora;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 97.7%;
+
+      letter-spacing: -0.03em;
+      color: #0a2463;
+
+      a:hover {
+        color: #033fff;
+      }
+    }
   }
 }
