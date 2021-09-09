@@ -1,6 +1,5 @@
-import Image from 'next/image';
 import {  GrFormSearch } from "react-icons/gr";
-import {  FaTableTennis, FaUser } from "react-icons/fa";
+import {  FaUser } from "react-icons/fa";
 
 import styles from './styles.module.scss';
 
@@ -109,8 +108,6 @@ export function Tournaments () {
               </div>
             </div>
           </section>
-
-         
         </main> 
       </div>
     </div>

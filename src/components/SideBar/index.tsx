@@ -55,7 +55,7 @@ export function SideBar () {
               <span>Rankings</span>              
             </a>
           </li>
-          <li>
+          <li onClick={()=> router.push("/where_to_play")}>
             <a className={styles.menuItem}>
               <div>
                 <GiTennisCourt/>

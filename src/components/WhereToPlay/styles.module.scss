@@ -1,0 +1,206 @@
+.tournamentsContainer {
+  width: 100%;
+
+  .title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.8rem;
+
+    button {
+      width: 100%;
+      max-width: 95px;
+      height: 38px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+
+      text-align: center;
+
+      color: #0a2463;
+
+      background: none;
+
+      border-radius: 10px;
+      border: 1px solid #2174ee;
+    }
+
+    h1 {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.4rem;
+      line-height: 97.7%;
+
+      letter-spacing: -0.03em;
+
+      color: #0a2463;
+    }
+  }
+}
+
+.tournamentsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 100%;
+  max-width: 940px;
+  height: 46px;
+
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  background: var(--white);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  p {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    letter-spacing: -0.03em;
+
+    color: #2d2a32;
+
+    margin-left: 1.5rem;
+  }
+}
+
+.dateInfo {
+  text-align: left;
+  transform: translateX(-120px);
+  margin-bottom: 0.4rem;
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 148.3%;
+
+    color: #0a2463;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 750px;
+  height: 1046px;
+
+  background: #f2fdff;
+
+  border: 1px solid #ebecf2;
+  border-radius: 10px;
+}
+
+.sectionContainer {
+  width: 100%;
+  max-width: 750px;
+  height: 1046px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionInfo {
+  margin-top: 1.5rem;
+  h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    color: #0a2463;
+  }
+
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 148.3%;
+
+    color: #0a2463;
+
+    margin-top: 0.6rem;
+  }
+
+  span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 148.3%;
+
+    color: #0a2463;
+  }
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.btncancel {
+  width: 100%;
+
+  max-width: 192px;
+  height: 34px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #0a2463;
+
+  background: none;
+  border-radius: 15px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 148.3%;
+
+  color: #0a2463;
+}
+
+.btnBlue {
+  width: 100%;
+
+  max-width: 89px;
+  height: 34px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #0a2463;
+  border-radius: 15px;
+
+  margin-right: 0.8rem;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 148.3%;
+
+  color: #ffffff;
+}
