@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
+import {useRouter} from 'next/router';
 
 import { BiHomeAlt, BiTennisBall, BiBarChartAlt2 } from "react-icons/bi";
 import {  GiHamburgerMenu, GiTennisCourt } from "react-icons/gi";
@@ -8,7 +9,9 @@ import {  FaSignOutAlt, FaCog } from "react-icons/fa";
 
 import styles from './styles.module.scss';
 
+
 export function SideBar () {
+    const router= useRouter()
     const [sidbarExpanded, setSidbarExpanded] = useState(false);
 
   return(
@@ -20,7 +23,7 @@ export function SideBar () {
       </div>
       <div className={`${styles.mainMenu} ${sidbarExpanded ? styles.activemain : null}`} >
         <ul>
-          <li>
+          <li onClick={()=> router.push("/home")}>
             <a className={styles.menuItem}>
               <div>
                   <BiHomeAlt />
@@ -28,7 +31,7 @@ export function SideBar () {
               <span> Novidades</span>
             </a>
           </li>
-          <li>
+          <li onClick={()=> router.push("/tournaments")}>
             <a className={styles.menuItem}>
               <div>
                 <RiMedalFill/>
@@ -44,7 +47,7 @@ export function SideBar () {
               <span>Jogo rápido</span>              
             </a>
           </li>
-          <li>
+          <li onClick={()=> router.push("/rankigs")}>
             <a className={styles.menuItem}>
               <div>
                 <BiBarChartAlt2 />

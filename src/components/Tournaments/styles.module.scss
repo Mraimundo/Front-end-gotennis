@@ -1,0 +1,344 @@
+.tournamentsContainer {
+  width: 100%;
+
+  .title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.8rem;
+
+    button {
+      width: 100%;
+      max-width: 95px;
+      height: 38px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+
+      text-align: center;
+
+      color: #0a2463;
+
+      background: none;
+
+      border-radius: 10px;
+      border: 1px solid #2174ee;
+    }
+
+    h1 {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.4rem;
+      line-height: 97.7%;
+
+      letter-spacing: -0.03em;
+
+      color: #0a2463;
+    }
+  }
+}
+
+.tournamentsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 100%;
+  max-width: 940px;
+  height: 46px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--white);
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  li {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    letter-spacing: -0.03em;
+    color: #0a2463;
+    list-style: none;
+
+    a:hover {
+      color: #2174ee;
+    }
+  }
+}
+
+.searchcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  .divBuscar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 320px;
+    height: 46px;
+    background: transparent;
+    background: var(--white);
+
+    border-radius: 10px;
+    border: 1px solid #ebecf2;
+    padding: 0 0 0 1rem;
+
+    svg {
+      width: 15px;
+      height: 15px;
+      margin-right: 1rem;
+    }
+
+    input {
+      width: 100%;
+      max-width: 320px;
+      height: 46px;
+
+      background: none;
+      border: none;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 97.7%;
+
+      color: rgba(64, 75, 101, 0.7);
+    }
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    button {
+      width: 93px;
+      height: 46px;
+      background: #0a2463;
+      border-radius: 10px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 97.7%;
+
+      color: var(--white);
+    }
+  }
+}
+
+.dateInfo {
+  text-align: left;
+  transform: translateX(-8px);
+  margin-bottom: 0.4rem;
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 148.3%;
+
+    color: #0a2463;
+  }
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionContainer {
+  width: 100%;
+  max-width: 750px;
+  height: 166px;
+  background: #f2fdff;
+
+  border: 1px solid rgba(64, 75, 101, 0.7);
+  border-radius: 10px;
+  margin-bottom: 1.8rem;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    padding-top: 1rem;
+    margin-left: 1.5rem;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 127.7%;
+
+    color: #0a2463;
+  }
+}
+
+.beachTennis {
+  width: 100%;
+  max-width: 755px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  height: 41px;
+  background: var(--white);
+  padding-left: 1.5rem;
+  margin-top: 1.1rem;
+
+  span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 148.3%;
+
+    color: #0a2463;
+
+    opacity: 0.7;
+  }
+}
+
+.sectionDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.6rem;
+
+  div {
+    margin-right: 1.5rem;
+    svg {
+      margin-right: 0.8rem;
+    }
+    span {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.9rem;
+      line-height: 148.3%;
+
+      color: #0a2463;
+    }
+  }
+}
+
+.btn {
+  width: 100%;
+  max-width: 152px;
+  height: 28px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(68, 199, 182, 0.1);
+  border-radius: 10px;
+
+  margin-left: 1.5rem;
+
+  .colorBtn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 148.3%;
+
+    color: #44c7b6;
+  }
+}
+
+.yellowBtn {
+  width: 100%;
+  max-width: 152px;
+  height: 28px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(251, 188, 5, 0.1);
+  border-radius: 10px;
+
+  margin-left: 1.5rem;
+
+  .colorYellow {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 148.3%;
+
+    color: #fbbc05;
+  }
+}
+
+.blueBtn {
+  width: 100%;
+  max-width: 80px;
+  height: 24px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(33, 116, 238, 0.1);
+
+  border-radius: 10px;
+
+  margin-left: 1.5rem;
+
+  .colorBlue {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 148.3%;
+    color: #2174ee;
+  }
+}
+
+.redBtn {
+  width: 100%;
+  max-width: 94px;
+  height: 28px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(251, 54, 64, 0.1);
+  border-radius: 10px;
+
+  margin-left: 1.5rem;
+
+  .colorRed {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 148.3%;
+
+    color: #fb3640;
+  }
+}

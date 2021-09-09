@@ -9,15 +9,15 @@ export function CardsUse() {
     <div className={styles.cardsContainer}>
       <h2>Perfeito, como deseja utilizar o GoTennis?</h2>
       <div className={styles.cardsContent}>
-        <div className={styles.card}>
+        <div onClick={()=> router.push("/home")} className={styles.card}>
           <Image src="/tenista.svg" alt="Tenista Amador" width={104} height={104}/>
           <p>Sou tenista amador e quero saber das novidades, interagindo com outros</p>
         </div>
-        <div className={styles.card}>
+        <div onClick={()=> router.push("/rankigs")} className={styles.card}>
           <Image src="/associacao.svg" alt="Tenista Amador" width={104} height={104}/>
           <p>Representamos uma associação e queremos cadastrar campeonatos e rankings</p>
         </div>
-        <div className={styles.card}>
+        <div onClick={()=> router.push("/tournaments")} className={styles.card}>
           <Image src="/conteudo.svg" alt="Criador de conteudo" width={104} height={104}/>
           <p>Sou criador de conteúdo e queremos falar das novidades do mundo do Tênis</p>
         </div>
