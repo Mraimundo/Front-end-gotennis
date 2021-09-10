@@ -39,7 +39,7 @@ export function SideBar () {
               <span>Torneios</span>
             </a>
           </li>
-          <li>
+          <li onClick={()=> router.push("/fast_game")}>
             <a className={styles.menuItem}>
               <div>
                 <BiTennisBall />

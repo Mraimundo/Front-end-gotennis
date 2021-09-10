@@ -4,6 +4,12 @@ import {useRouter} from 'next/router';
 import styles from './styles.module.scss';
 
 export function Cadastro() {
+
+  interface userProps {
+    email: string;
+    senha: string;
+  }
+
   const router= useRouter()
   return (
     <div className={styles.cadastroContainer}>
