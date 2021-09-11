@@ -1,0 +1,362 @@
+.internalContainer {
+  width: 100%;
+  h1 {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 97.7%;
+
+    letter-spacing: -0.03em;
+
+    color: #0a2463;
+    text-align: center;
+    transform: translateX(-92px);
+    margin-bottom: 1rem;
+  }
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  transform: translateX(-326px);
+  margin-bottom: 1rem;
+}
+
+.btnStarting {
+  margin-right: 1.6rem;
+  width: 100%;
+  max-width: 84px;
+  height: 28px;
+  background: rgba(33, 116, 238, 0.2);
+  border-radius: 10px;
+  border: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 148.3%;
+
+  color: #2174ee;
+}
+
+.btnUser {
+  width: 150px;
+  height: 28px;
+
+  padding: 0 0.5rem 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 148.3%;
+
+  color: #2174ee;
+
+  background: none;
+
+  border-radius: 10px;
+  border: 1px solid #2174ee;
+}
+
+.internalContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 100%;
+  max-width: 940px;
+  height: 46px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--white);
+  border-radius: 10px;
+  margin-bottom: 1.8rem;
+  li {
+    list-style: none;
+    cursor: pointer;
+    a {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 97.7%;
+
+      letter-spacing: -0.03em;
+
+      color: #0a2463;
+
+      &:hover {
+        color: #2174ee;
+      }
+    }
+  }
+}
+
+.searchcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.selectButton {
+  width: 100%;
+  max-width: 320px;
+  height: 46px;
+  background: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+  border-radius: 10px;
+  margin-right: 2rem;
+
+  span {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    color: rgba(64, 75, 101, 0.7);
+  }
+}
+
+.divButtons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonReal {
+  width: 155px;
+  height: 34px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: none;
+
+  border-radius: 50px;
+  border: 1px solid #0a2463;
+
+  margin-right: 1.5rem;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 148.3%;
+
+  text-align: center;
+
+  color: #0a2463;
+}
+
+.buttonPro {
+  width: 155px;
+  height: 34px;
+  background: #0a2463;
+
+  border-radius: 50px;
+
+  padding: 0 1rem 0 1rem;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.arrowContent {
+  width: 100%;
+  max-width: 721px;
+  height: 46px;
+  background: var(--white);
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    // font-weight: 500;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    color: #0a2463;
+  }
+
+  svg {
+    color: #0a2463;
+  }
+}
+
+.infoContainer {
+  width: 100%;
+  max-width: 751px;
+  margin-top: 2rem;
+}
+
+.infoBox {
+  width: 100%;
+  max-width: 724px;
+  height: 16rem;
+  background: var(--white);
+  border-radius: 10px;
+  padding: 1.5rem 1.5rem;
+  margin-top: 1rem;
+  &::after {
+    content: "";
+    width: 258px;
+    height: 2px;
+    background: #0a2463;
+  }
+}
+
+.infoContent {
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    p {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 97.7%;
+
+      letter-spacing: -0.03em;
+
+      color: #0a2463;
+    }
+    > span {
+      font-family: Roboto;
+      font-style: normal;
+      // font-weight: normal;
+      font-size: 0.8rem;
+      line-height: 97.7%;
+
+      color: rgba(64, 75, 101, 0.7);
+    }
+  }
+}
+
+.setsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      margin-left: 1rem;
+    }
+  }
+}
+
+.setsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  div {
+    svg {
+      width: 22px;
+      height: 32px;
+    }
+    span {
+      margin-left: 1rem;
+    }
+  }
+  button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 106px;
+    height: 1.93rem;
+    background: #2174ee;
+    border: none;
+    border-radius: 12.439px;
+    p {
+      // margin-right: 0.3rem;
+      color: var(--white);
+    }
+    span {
+      margin-left: 0.3rem;
+      color: var(--white);
+    }
+  }
+}
+
+.setsFooterContainer {
+  display: flex;
+  justify-content: space-between;
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      margin-left: 1rem;
+      font-family: Sora;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 97.7%;
+      letter-spacing: -0.03em;
+
+      color: #2d2a32;
+    }
+  }
+}
+
+.footerContent {
+  > div {
+    margin-bottom: 1rem;
+    p {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 97.7%;
+      letter-spacing: -0.03em;
+      color: #0a2463;
+    }
+    > span {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.8rem;
+      line-height: 97.7%;
+
+      color: rgba(64, 75, 101, 0.7);
+    }
+  }
+}

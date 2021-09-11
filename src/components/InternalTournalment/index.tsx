@@ -31,7 +31,7 @@ export function InternalTournalment () {
           <li onClick={()=> router.push("/games")}>
             <a>Jogos</a>
           </li>
-          <li>
+          <li onClick={()=> router.push("/game_keys")}>
             <a>Chaves</a>
           </li>
           <li>
