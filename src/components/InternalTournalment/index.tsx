@@ -22,13 +22,13 @@ export function InternalTournalment () {
       </div>
       <div className={styles.internalContent} >
         <ul className={styles.list}>
-          <li>
+          <li onClick={()=> router.push("/internal_tournament")}>
             <a>Notícias</a>
           </li>
-          <li>
+          <li onClick={()=> router.push("/winners")}>
             <a>Classificações</a>
           </li>
-          <li>
+          <li onClick={()=> router.push("/games")}>
             <a>Jogos</a>
           </li>
           <li>

@@ -81,7 +81,6 @@ export function Enrolled () {
               <p>Jéssica Soares</p>
             </div>
           </div>
-         
         </div> 
       </main> 
     </div>
