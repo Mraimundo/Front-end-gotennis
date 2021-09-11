@@ -1,3 +1,4 @@
+import {useRouter} from 'next/router';
 import Image from 'next/image';
 import {  GrFormSearch } from "react-icons/gr";
 import {  FaTableTennis, FaUser } from "react-icons/fa";
@@ -6,13 +7,14 @@ import styles from './styles.module.scss';
 
 
 export function InternalTournalment () {
+  const router= useRouter()
   return(
     <div className={styles.internalContainer} >
       <h1>ITF $15.000 Mormaii Garobapa Open  CONSOLAÇÃO</h1>
       <div className={styles.headerInfo}>
         <div className={styles.title}>
           <button className={styles.btnStarting}>Iniciando</button> 
-          <button className={styles.btnUser}>
+          <button onClick={()=> router.push("/enrolled")} className={styles.btnUser}>
             <FaUser/>
             <span>400 Inscritos</span>
           </button>

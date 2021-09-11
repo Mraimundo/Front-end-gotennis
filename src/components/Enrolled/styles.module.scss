@@ -1,0 +1,145 @@
+.postsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  transform: translateX(-430px);
+  margin-bottom: 1rem;
+  h1 {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 97.7%;
+    letter-spacing: -0.03em;
+    color: #0a2463;
+    text-align: left;
+  }
+}
+
+.searchcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  .divBuscar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 320px;
+    height: 46px;
+    background: transparent;
+    background: var(--white);
+
+    border-radius: 10px;
+    border: 1px solid #ebecf2;
+    padding: 0 0 0 1rem;
+
+    svg {
+      width: 15px;
+      height: 15px;
+      margin-right: 1rem;
+    }
+
+    input {
+      width: 100%;
+      max-width: 320px;
+      height: 46px;
+
+      background: none;
+      border: none;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 97.7%;
+
+      color: rgba(64, 75, 101, 0.7);
+    }
+  }
+
+  // div {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   margin-left: 2rem;
+  //   button {
+  //     width: 93px;
+  //     height: 46px;
+  //     background: #0a2463;
+  //     border-radius: 10px;
+
+  //     font-family: Roboto;
+  //     font-style: normal;
+  //     font-weight: normal;
+  //     font-size: 1rem;
+  //     line-height: 97.7%;
+
+  //     color: var(--white);
+  //   }
+  // }
+}
+
+.selectButton {
+  width: 100%;
+  max-width: 320px;
+  height: 46px;
+  background: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem 0 1.5rem;
+  border-radius: 10px;
+  margin-right: 2rem;
+
+  span {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    color: rgba(64, 75, 101, 0.7);
+  }
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 750px;
+  height: 310px;
+  background: var(--white);
+}
+
+.wrapperContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  padding: 2rem 0 2rem 0;
+}
+
+.userInfo {
+  div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    p {
+      margin-left: 1rem;
+
+      font-family: Roboto;
+      font-style: normal;
+      // font-weight: 500;
+      font-size: 1rem;
+      line-height: 148.3%;
+
+      color: #2d2a32;
+    }
+  }
+}

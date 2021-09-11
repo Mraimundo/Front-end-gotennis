@@ -1,12 +1,12 @@
 
 import { CustomLayout } from '../components/CustomLayout';
-import { Rankings } from '../components/Rakings';
+import { Enrolled } from '../components/Enrolled';
 
-export default function RakingsPage() {
+export default function EnrolledPage() {
   return (
     <CustomLayout>
       <div>
-        <Rankings/>
+        <Enrolled/>
       </div>
     </CustomLayout>
    
