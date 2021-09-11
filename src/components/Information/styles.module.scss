@@ -113,8 +113,7 @@
 .wrapper {
   width: 100%;
   max-width: 750px;
-  height: 391px;
-
+  height: 452px;
   background: var(--white);
 
   border: 1px solid #ebecf2;
@@ -122,41 +121,113 @@
   margin-bottom: 1rem;
 }
 
-.sectionContainer {
-  width: 100%;
-  max-width: 750px;
-  height: 391px;
+.wrapperContainer {
   display: flex;
   flex-direction: column;
-  justify-content: stretch;
+  padding: 1.2rem 1rem;
+}
+
+.wrapperInfo {
+  display: flex;
   align-items: center;
-  margin-top: 1rem;
-}
+  margin-bottom: 1.2rem;
+  button {
+    width: 100%;
+    max-width: 155px;
+    height: 37;
+    padding: 5px 20px;
+    background: #2174ee;
 
-.sectionContent {
-  display: flex;
-  flex-direction: column;
-}
-
-.sectionInfo {
-  margin-top: 1.5rem;
-  span {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 148.3%;
-    color: #0a2463;
-  }
 
+    text-align: center;
+
+    color: #ffffff;
+
+    border-radius: 50px;
+    border: none;
+  }
   p {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1rem;
-    line-height: 97.7%;
-
-    color: #0a2463;
-    margin-top: 0.6rem;
+    margin-left: 1.2rem;
   }
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1.6rem;
+}
+
+.tableContent1 {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    margin-bottom: 1.3rem;
+  }
+
+  table {
+    width: 370px;
+    height: 220px;
+    border-collapse: collapse;
+    td {
+      padding: 0 0 0 0.6rem;
+    }
+  }
+  table,
+  td,
+  th {
+    border: 1.15789px solid rgba(64, 75, 101, 0.7);
+    border-radius: 5px;
+  }
+}
+
+.tableContent2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.headerContent {
+  margin-top: 0.3rem;
+  h2 {
+    margin-bottom: 1.3rem;
+  }
+  p {
+    margin-bottom: 0.6rem;
+  }
+  span {
+    margin-bottom: 1.6rem;
+  }
+}
+
+.footerContent {
+  margin-top: 2.1rem;
+}
+
+.btnFooter {
+  width: 100%;
+  max-width: 287px;
+  height: 52px;
+  background: #2174ee;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Sora;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 97.7%;
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+
+  border-radius: 50px;
+  border: none;
 }

@@ -29,10 +29,10 @@ export function Winners () {
           <li onClick={()=> router.push("/winners")}>
             <a>Classificações</a>
           </li>
-          <li>
+          <li onClick={()=> router.push("/games")}>
             <a>Jogos</a>
           </li>
-          <li>
+          <li onClick={()=> router.push("/game_keys")}>
             <a>Chaves</a>
           </li>
           <li>
