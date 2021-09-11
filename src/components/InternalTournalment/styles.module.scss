@@ -1,0 +1,160 @@
+.internalContainer {
+  width: 100%;
+  h1 {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 97.7%;
+
+    letter-spacing: -0.03em;
+
+    color: #0a2463;
+    text-align: center;
+    transform: translateX(-92px);
+    margin-bottom: 1rem;
+  }
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  transform: translateX(-326px);
+  margin-bottom: 1rem;
+}
+
+.btnStarting {
+  margin-right: 1.6rem;
+  width: 100%;
+  max-width: 84px;
+  height: 28px;
+  background: rgba(33, 116, 238, 0.2);
+  border-radius: 10px;
+  border: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 148.3%;
+
+  color: #2174ee;
+}
+
+.btnUser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 135px;
+  height: 28px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 148.3%;
+
+  color: #2174ee;
+
+  background: none;
+
+  border-radius: 10px;
+  border: 1px solid #2174ee;
+}
+
+.internalContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.list {
+  width: 100%;
+  max-width: 940px;
+  height: 46px;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: var(--white);
+  border-radius: 10px;
+  margin-bottom: 1.8rem;
+  li {
+    list-style: none;
+    cursor: pointer;
+    a {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 97.7%;
+
+      letter-spacing: -0.03em;
+
+      color: #0a2463;
+
+      &:hover {
+        color: #2174ee;
+      }
+    }
+  }
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 750px;
+  height: 391px;
+
+  background: var(--white);
+
+  border: 1px solid #ebecf2;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.sectionContainer {
+  width: 100%;
+  max-width: 750px;
+  height: 391px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionInfo {
+  margin-top: 1.5rem;
+  span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 148.3%;
+    color: #0a2463;
+  }
+
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    color: #0a2463;
+    margin-top: 0.6rem;
+  }
+}

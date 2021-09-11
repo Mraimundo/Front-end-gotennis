@@ -1,3 +1,5 @@
+import {useRouter} from 'next/router';
+
 import {  GrFormSearch } from "react-icons/gr";
 import {  FaUser } from "react-icons/fa";
 
@@ -5,6 +7,7 @@ import styles from './styles.module.scss';
 
 
 export function Tournaments () {
+  const router= useRouter()
   return(
     <div className={styles.tournamentsContainer} >
       <div className={styles.title}>
@@ -37,7 +40,7 @@ export function Tournaments () {
         </div>
         <main className={styles.wrapper}>
 
-          <section className={styles.sectionContainer}>
+          <section onClick={()=> router.push("/internal_tournament")} className={styles.sectionContainer}>
             <div className={styles.sectionContent}>
               <p>ITF $15.000 Mormaii Garobapa Open CONSOLAÇÃO</p>
               <div className={styles.beachTennis}>
