@@ -35,7 +35,7 @@ export function Winners () {
           <li onClick={()=> router.push("/game_keys")}>
             <a>Chaves</a>
           </li>
-          <li>
+          <li onClick={()=> router.push("/winners")}>
             <a>Informações</a>
           </li>
         </ul>
