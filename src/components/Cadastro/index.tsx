@@ -11,6 +11,12 @@ export function Cadastro() {
   }
 
   const router= useRouter()
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    router.push("/completar_registro")
+  }
+
   return (
     <div className={styles.cadastroContainer}>
       <h2>Cadastre-se</h2>
@@ -23,10 +29,10 @@ export function Cadastro() {
         <button>Registrar com Google</button>
       </div>
         <p>ou use seu email</p>
-      <form>
+      <form onSubmit={handleSubmit}>
           <input type="email" placeholder="email" className={styles.emptyEmail}/>
           <input type="password" placeholder="senha"/>
-          <button onClick={()=> router.push("/completar_registro")}type="submit">Cadastrar</button>
+          <button type="submit">Cadastrar</button>
       </form>
     </div>
   );

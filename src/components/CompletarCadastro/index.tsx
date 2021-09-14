@@ -7,6 +7,7 @@ export function CompletarCadastro() {
   const router= useRouter()
   function handleSubmit(e) {
     e.preventDefault()
+    router.push("/cards")
   }
   return (
     <div className={styles.cadastroContainer}>
@@ -18,7 +19,7 @@ export function CompletarCadastro() {
               <input type="checkbox"/>
               aceito os termos de uso
           </label>
-          <button onClick={()=> router.push("/cards")}>
+          <button>
               <span>Continuar</span>
               <Image src="/arrow.png" width={23} height={23} alt="Arrow" />
           </button>
