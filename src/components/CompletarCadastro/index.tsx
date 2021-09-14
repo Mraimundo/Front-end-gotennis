@@ -11,7 +11,7 @@ export function CompletarCadastro() {
   return (
     <div className={styles.cadastroContainer}>
       <h2>Complete seu cadastro</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={styles.formContent}>
           <input type="text" placeholder="Nome" className={styles.emptyEmail}/>
           <input type="text" placeholder="Sobrenome"/>
           <label>
