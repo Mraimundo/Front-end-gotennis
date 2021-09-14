@@ -15,10 +15,12 @@
     padding: 0.25rem 0 0.25rem 2rem;
   }
 
-  // span {
-  //   margin-left: auto;
-  //   text-transform: capitalize;
-  // }
+}
+
+@media(max-width: 640px){
+  .headerContainer {
+    display: none;
+  }
 }
 
 .userButton {

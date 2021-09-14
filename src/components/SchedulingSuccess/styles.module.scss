@@ -1,0 +1,90 @@
+.performanceContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.performanceContent {
+  width: 100%;
+  max-width: 940px;
+  height: 370px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #ebecf2;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: var(--white);
+}
+
+.performanceInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  div {
+    h1 {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.8rem;
+      line-height: 97.7%;
+
+      letter-spacing: -0.03em;
+
+      color: #0a2463;
+
+      text-align: center;
+    }
+    p {
+      margin-top: 1rem;
+      width: 440px;
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 127.7%;
+
+      text-align: center;
+
+      color: #0a2463;
+      text-align: center;
+    }
+  }
+}
+
+.iconLike {
+  margin-bottom: 1.4rem;
+  svg {
+    width: 70px;
+    height: 68px;
+    color: #0a2463;
+  }
+}
+
+.btnToBack {
+  margin-top: 3rem;
+  button {
+    width: 287px;
+    height: 52px;
+
+    background: #2174ee;
+    border-radius: 50px;
+    border: none;
+
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+
+    text-align: center;
+  }
+}

@@ -1,4 +1,18 @@
+
+$breakpoints: (
+  "phone": 360px,
+  "tablet": 768px,
+  "desktop": 1366px,
+  "LGdesktop": 1920px
+) !default;
+
 .containerLayout {
   display: flex;
   align-items: center;
+}
+
+@media (min-width: 360px) and (max-width: 768px){
+  .containerLayout {
+    flex-direction: column;
+  }
 }

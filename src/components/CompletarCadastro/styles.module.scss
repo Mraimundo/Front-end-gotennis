@@ -64,3 +64,22 @@
     }
   }
 }
+
+@media (max-width: 640px){
+  form {
+    
+    button{
+      width: 100%;
+      max-width:  287px;
+      height: 52px;
+
+    }
+    input {
+      width: 100%;
+      max-width:  287px;
+      height: 52px;
+      padding: 0 0.85rem;
+      
+    }
+  }
+}
