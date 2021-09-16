@@ -72,3 +72,112 @@
     }
   }
 }
+
+.rechartsContent {
+  width: 100%;
+  display: flex;
+  margin-top: 1.2rem;
+}
+
+.areaChart {
+  width: 100%;
+  max-width: 535px;
+  height: 302px;
+
+  background: #ffffff;
+
+  border: 1px solid #ebecf2;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.linearChart {
+  width: 385px;
+  height: 302px;
+
+  background: #ffffff;
+
+  border: 1px solid #ebecf2;
+  border-radius: 10px;
+}
+
+.progressContainer {
+  padding: 1.6rem 0 0 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1rem;
+      line-height: 97.7%;
+
+      color: #0a2463;
+    }
+    span {
+      margin-left: 0.5rem;
+
+      font-family: Sora;
+      font-style: normal;
+      // font-weight: normal;
+      font-size: 1rem;
+      line-height: 97.7%;
+
+      color: rgba(64, 75, 101, 0.7);
+    }
+  }
+}
+
+.progress_Content {
+  width: 219px;
+  border-radius: 40px;
+  height: 29px;
+  background: black;
+  display: flex;
+  margin-right: 1rem;
+}
+
+.progress_won {
+  width: 60%;
+  height: 29px;
+  background: #27ae60;
+  border-radius: 40px 0 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    color: #ffffff;
+  }
+}
+
+.progress_lose {
+  flex: 1;
+  height: 29px;
+  background: #fb3640;
+  border-radius: 0px 40px 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    color: #ffffff;
+  }
+}
