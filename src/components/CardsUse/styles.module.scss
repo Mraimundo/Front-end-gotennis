@@ -1,31 +1,29 @@
 .cardsContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  // width: 600px;
 
   h2 {
     margin-bottom: 2.5rem;
     font-style: normal;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.4rem;
+    text-align: center;
     color: var(--text-button);
   }
 
   .cardsContent {
     display: flex;
-    grid-template-columns: repeat(auto-fit, minmax(485px, 1fr));
-    grid-gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
 
+    gap: 20px;
+
     .card {
-      width: 30rem;
-      height: 11rem;
+      width: 350px;
+      height: 160px;
       display: flex;
-      justify-content: space-between;
       align-items: center;
       background: var(--white);
-      padding: 2rem 2rem;
+      padding: 1rem 1rem;
       border-radius: 15px;
 
       & {
@@ -38,8 +36,7 @@
       }
 
       p {
-        // width: 600px;
-        margin-left: 2rem;
+        margin-left: 1rem;
         font-family: Sora;
         font-style: normal;
         font-weight: normal;

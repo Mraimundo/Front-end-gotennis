@@ -17,7 +17,9 @@ export function CompletarCadastro() {
           <input type="text" placeholder="Sobrenome"/>
           <label>
               <input type="checkbox"/>
-              aceito os termos de uso
+              <span>
+               aceito os termos de uso
+              </span>
           </label>
           <button>
               <span>Continuar</span>
