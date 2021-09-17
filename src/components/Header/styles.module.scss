@@ -2,41 +2,56 @@
   position: absolute;
   top: 0;
   right: 0;
-  left: 36rem;
-  height: 6.5rem;
+  left: 540px;
+  height: 5rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   background: var(--white);
   padding-right: 2rem;
 
-  p {
+  > p {
     margin-right: 2rem;
+    font-family: Sora;
+    font-weight: normal;
+    font-size: 0.6rem;
+    line-height: 97.7%;
+
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: rgba(64, 75, 101, 0.7);
+
     padding: 0.25rem 0 0.25rem 2rem;
   }
-
 }
 
-@media(max-width: 640px){
+@media (max-width: 640px) {
   .headerContainer {
     display: none;
   }
 }
 
 .userButton {
-  width: 161px;
-  height: 52px;
+  width: 115px;
+  height: 35px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   justify-content: center;
   background: var(--button-register);
   border-radius: 50px;
+  border: none;
   cursor: pointer;
 
-  button {
-    border: none;
-    background: none;
+  p {
+    font-family: Sora;
+    font-weight: 600;
+    font-size: 0.8rem;
+    line-height: 97.7%;
+
+    text-align: center;
+
+    color: #0a2463;
     margin-left: 1rem;
   }
 }

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { FaUserAlt} from "react-icons/fa";
 import styles from './styles.module.scss';
 
 export function Header() {
@@ -6,10 +7,10 @@ export function Header() {
   return (
     <header className={styles.headerContainer}>
       <p>Já tem um cadastro?</p>
-      <div className={styles.userButton}>
-        <Image src="/user.png" alt="User" width={18} height= {20}/>
-        <button>Entrar</button>
-      </div>
+      <button className={styles.userButton}>
+        <FaUserAlt/>
+        <p>Entrar</p>
+      </button>
     </header>
   );
 }

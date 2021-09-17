@@ -10,7 +10,10 @@ export function Layout(
     <div className={styles.containerLayout}>
       <Aside/>
       <Header />
-      {children}
+      <main>
+
+        {children}
+      </main>
     </div>
   );
 }

@@ -1,6 +1,9 @@
 import Image from 'next/image';
 
 import {useRouter} from 'next/router';
+import { FaFacebook} from "react-icons/fa";
+import { FcGoogle} from "react-icons/fc";
+
 import styles from './styles.module.scss';
 
 export function Cadastro() {
@@ -20,14 +23,14 @@ export function Cadastro() {
   return (
     <div className={styles.cadastroContainer}>
       <h2>Cadastre-se</h2>
-      <div className={styles.emptyFacebook} >
-        <Image src="/facebook.svg" width={34} height= {34} alt="Facebook" />
-        <button>Registrar com Facebook</button>
-      </div>
-      <div className={styles.emptyGoogle}>
-        <Image src="/icon-google.svg" width={34} height= {34} alt="Google" />
-        <button>Registrar com Google</button>
-      </div>
+      <button className={styles.emptyFacebook}>
+        <FaFacebook/>
+        <p>Registrar com Facebook</p>
+      </button>
+      <button className={styles.emptyGoogle}>
+        <FcGoogle/>
+        <p>Registrar com Google</p>
+      </button>
         <p>ou use seu email</p>
       <form onSubmit={handleSubmit}>
           <input type="email" placeholder="email" className={styles.emptyEmail}/>
