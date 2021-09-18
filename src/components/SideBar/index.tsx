@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import {useRouter} from 'next/router';
 
-import { BiHomeAlt, BiTennisBall, BiBarChartAlt2 } from "react-icons/bi";
+import { BiHomeAlt, BiTennisBall, BiBarChartAlt2, BiMenu, BiMenuAltLeft } from "react-icons/bi";
 import {  GiHamburgerMenu, GiTennisCourt } from "react-icons/gi";
 import {  RiMedalFill } from "react-icons/ri";
 import {  FaSignOutAlt, FaCog } from "react-icons/fa";
@@ -18,7 +18,7 @@ export function SideBar () {
     <div className={styles.sidebarMenu} >
       <div onClick={() => setSidbarExpanded(!sidbarExpanded)} className={styles.toogleMenu}>
         {
-          sidbarExpanded ?  <Image src="/icons/burger.png" alt="" width={31} height={34}/> : <Image src="/icons/burger-1.svg" alt="" width={31} height={34}/>
+          sidbarExpanded ?  <BiMenu/> : <BiMenuAltLeft/>
         } 
       </div>
       <div className={`${styles.mainMenu} ${sidbarExpanded ? styles.activemain : null}`} >
