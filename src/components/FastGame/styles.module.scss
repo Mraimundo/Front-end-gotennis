@@ -9,13 +9,13 @@
 
     button {
       width: 100%;
-      max-width: 95px;
-      height: 38px;
+      max-width: 90px;
+      height: 35px;
 
       font-family: Roboto;
       font-style: normal;
       font-weight: normal;
-      font-size: 1rem;
+      font-size: 0.9rem;
 
       text-align: center;
 
@@ -23,7 +23,7 @@
 
       background: none;
 
-      border-radius: 10px;
+      border-radius: 50px;
       border: 1px solid #2174ee;
     }
 
@@ -31,7 +31,7 @@
       font-family: Sora;
       font-style: normal;
       font-weight: 600;
-      font-size: 1.4rem;
+      font-size: 1.2rem;
       line-height: 97.7%;
 
       letter-spacing: -0.03em;
@@ -49,8 +49,7 @@
 }
 
 .list {
-  width: 100%;
-  max-width: 940px;
+  width: 750px;
   height: 46px;
 
   display: flex;
@@ -64,7 +63,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 97.7%;
 
     letter-spacing: -0.03em;
@@ -125,7 +124,7 @@
   background: var(--white);
 
   border-radius: 10px;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 .sectionContent {
@@ -142,7 +141,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 97.7%;
 
     letter-spacing: -0.03em;
@@ -171,7 +170,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 97.7%;
     letter-spacing: -0.03em;
     color: #2d2a32;
@@ -204,7 +203,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 97.7%;
 
     letter-spacing: -0.03em;

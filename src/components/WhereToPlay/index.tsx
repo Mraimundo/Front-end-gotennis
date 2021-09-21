@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import {  GrFormSearch } from "react-icons/gr";
 import {  FaTableTennis, FaUser } from "react-icons/fa";
 
 import styles from './styles.module.scss';
@@ -22,7 +21,7 @@ export function WhereToPlay () {
         <main className={styles.wrapper}>
             <div className={styles.sectionContainer}>
               <div className={styles.sectionContent}>
-                <Image src="/onde-jogar.svg" alt="Onde Jogar" width={710} height={291}/>
+                <Image src="/onde-jogar.svg" alt="Onde Jogar" width={650} height={291}/>
                 <div className={styles.sectionInfo}>
                   <h1>Nome da quadra</h1>
                   <p>Rua das flores 123, Jd. Primavera, </p>

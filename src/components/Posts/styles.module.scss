@@ -7,10 +7,9 @@
 
   button {
     width: 100%;
-    max-width: 940px;
-    height: 3.68rem;
+    max-width: 750px;
+    height: 3rem;
     display: flex;
-    // justify-content: space-evenly;
     align-items: center;
     padding: 0 0.85rem;
     background: var(--white);
@@ -18,14 +17,24 @@
     border: none;
     color: rgba(64, 75, 101, 0.7);
     margin-bottom: 1rem;
+    svg {
+      width: 16px;
+      height: 20px;
+    }
     span {
       margin-left: 1rem;
+      font-family: Roboto;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 127.7%;
+
+      color: rgba(64, 75, 101, 0.7);
     }
   }
 }
 
 .wrapper {
-  width: 750px;
+  width: 650px;
   height: 609px;
   padding: 30px 20px;
   background: var(--white);
@@ -34,6 +43,14 @@
 .headerContainer {
   display: flex;
   justify-content: space-between;
+  div {
+    svg {
+      width: 22px;
+      height: 22px;
+      margin-right: 0.4rem;
+      color: rgba(64, 75, 101, 0.7);
+    }
+  }
 
   .userInformation {
     display: flex;
@@ -42,14 +59,13 @@
     margin-bottom: 1rem;
 
     .info {
-      // height: 60px;
       margin-left: 1rem;
 
       p {
         font-family: Sora;
         font-style: normal;
         font-weight: 600;
-        font-size: 1rem;
+        font-size: 0.8rem;
         line-height: 97.7%;
         letter-spacing: -0.03em;
         color: #0a2463;
@@ -73,7 +89,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 127.7%;
     color: #2d2a32;
     margin-bottom: 1rem;

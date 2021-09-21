@@ -2,7 +2,7 @@ import {useRouter} from 'next/router';
 import Image from 'next/image';
 import {  RiMedalFill } from "react-icons/ri";
 import {  CgSelect} from "react-icons/cg";
-import {  FaTableTennis, FaUser } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
 
 import styles from './styles.module.scss';
 

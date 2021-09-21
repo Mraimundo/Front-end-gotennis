@@ -2,7 +2,7 @@ import {useRouter} from 'next/router';
 import Image from 'next/image';
 import {  GrFormSearch } from "react-icons/gr";
 import {  CgSelect} from "react-icons/cg";
-import {  FaTableTennis, FaUser } from "react-icons/fa";
+import {  FaUser } from "react-icons/fa";
 
 import styles from './styles.module.scss';
 

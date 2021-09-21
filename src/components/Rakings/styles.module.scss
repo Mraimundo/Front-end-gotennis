@@ -8,12 +8,12 @@
 
 .title {
   margin-bottom: 1rem;
-  transform: translateX(-380px);
+  transform: translateX(-330px);
   h1 {
     font-family: Sora;
     font-style: normal;
     font-weight: 600;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     line-height: 97.7%;
     letter-spacing: -0.03em;
     color: #0a2463;
@@ -23,7 +23,7 @@
 
 .list {
   width: 100%;
-  max-width: 940px;
+  max-width: 750px;
   height: 46px;
 
   display: flex;
@@ -37,7 +37,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 97.7%;
 
     letter-spacing: -0.03em;
@@ -55,14 +55,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 
   .divBuscar {
     display: flex;
     justify-content: space-around;
     align-items: center;
     max-width: 320px;
-    height: 46px;
+    height: 36px;
     background: transparent;
     background: var(--white);
 
@@ -79,7 +79,7 @@
     input {
       width: 100%;
       max-width: 320px;
-      height: 46px;
+      height: 36px;
 
       background: none;
       border: none;
@@ -101,7 +101,7 @@
     margin-left: 2rem;
     button {
       width: 93px;
-      height: 46px;
+      height: 36px;
       background: #0a2463;
       border-radius: 10px;
 
@@ -117,10 +117,10 @@
 }
 
 .wrapper {
-  width: 100%;
-  max-width: 810px;
+  width: 700px;
   height: 1081px;
   background: var(--white);
+  border-radius: 10px;
 
   > div {
     padding-left: 2rem;
@@ -142,13 +142,12 @@
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
-  margin-bottom: 1.2rem;
 }
 
 .btnProgress {
   width: 100%;
   max-width: 176px;
-  height: 37px;
+  height: 32px;
 
   font-family: Roboto;
   font-style: normal;
@@ -168,7 +167,7 @@
 .btnConcluded {
   width: 100%;
   max-width: 137px;
-  height: 37px;
+  height: 32px;
 
   font-family: Roboto;
   font-style: normal;
@@ -187,7 +186,7 @@
 .btnAll {
   width: 100%;
   max-width: 88px;
-  height: 37px;
+  height: 32px;
 
   font-family: Roboto;
   font-style: normal;
@@ -205,8 +204,8 @@
 
 .sectionContainer {
   width: 100%;
-  max-width: 750px;
-  height: 166px;
+  max-width: 640px;
+  height: 150px;
   background: #f2fdff;
 
   border: 1px solid rgba(64, 75, 101, 0.7);
@@ -219,7 +218,7 @@
 .sectionContent {
   display: flex;
 
-  padding-top: 2.8rem;
+  padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
 
@@ -229,7 +228,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 148.3%;
 
     color: #0a2463;

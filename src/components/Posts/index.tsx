@@ -1,4 +1,9 @@
 import Image from 'next/image';
+import {  GoComment } from "react-icons/go";
+import {  FiUserPlus } from "react-icons/fi";
+import {  BiDotsHorizontalRounded } from "react-icons/bi";
+
+
 import styles from './styles.module.scss';
 
 
@@ -6,21 +11,21 @@ export function Posts () {
   return(
     <div className={styles.postsContainer} >
       <button>
-          <Image src="/icons/comment-alt.png" width={16} height={20} alt="Cometário" />
+          <GoComment/>
           <span>Deseja publicar algo, Alisson?</span>
       </button>
       <main className={styles.wrapper}>
           <header className={styles.headerContainer}>
             <div className={styles.userInformation}>
-              <Image src="/amanda.png" width={48} height={48} alt="Amanda" />
+              <Image src="/amanda.png" width={40} height={40} alt="Amanda" />
               <div className={styles.info}>
                 <p>@amandanunes</p>
                 <span>Amanda dos Santos Nunes</span>
               </div>
             </div>
             <div>
-              <Image src="/icons/bx-user-plus.png" width={30} height={30} alt="Amanda" />
-              <Image src="/icons/dots-horizontal-rounded.png" width={30} height={30} alt="Amanda" />
+              <FiUserPlus/>
+              <BiDotsHorizontalRounded />
             </div>
           </header>
           <section className={styles.sectionInfo}>

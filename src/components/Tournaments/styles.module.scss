@@ -7,15 +7,27 @@
     align-items: center;
     margin-bottom: 0.8rem;
 
+    h1 {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.2rem;
+      line-height: 97.7%;
+
+      letter-spacing: -0.03em;
+
+      color: #0a2463;
+    }
+
     button {
       width: 100%;
       max-width: 95px;
-      height: 38px;
+      height: 35px;
 
       font-family: Roboto;
       font-style: normal;
       font-weight: normal;
-      font-size: 1rem;
+      font-size: 0.9rem;
 
       text-align: center;
 
@@ -25,18 +37,6 @@
 
       border-radius: 10px;
       border: 1px solid #2174ee;
-    }
-
-    h1 {
-      font-family: Sora;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 1.4rem;
-      line-height: 97.7%;
-
-      letter-spacing: -0.03em;
-
-      color: #0a2463;
     }
   }
 }
@@ -50,7 +50,7 @@
 
 .list {
   width: 100%;
-  max-width: 940px;
+  max-width: 750px;
   height: 46px;
 
   display: flex;
@@ -64,7 +64,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 97.7%;
 
     letter-spacing: -0.03em;
@@ -89,7 +89,7 @@
     justify-content: space-around;
     align-items: center;
     max-width: 320px;
-    height: 46px;
+    height: 36px;
     background: transparent;
     background: var(--white);
 
@@ -106,7 +106,7 @@
     input {
       width: 100%;
       max-width: 320px;
-      height: 46px;
+      height: 36px;
 
       background: none;
       border: none;
@@ -128,7 +128,7 @@
     margin-left: 2rem;
     button {
       width: 93px;
-      height: 46px;
+      height: 36px;
       background: #0a2463;
       border-radius: 10px;
 
@@ -145,7 +145,7 @@
 
 .dateInfo {
   text-align: left;
-  transform: translateX(-8px);
+  transform: translateX(-280px);
   margin-bottom: 0.4rem;
   p {
     font-family: Roboto;
@@ -167,14 +167,13 @@
 }
 
 .sectionContainer {
-  width: 100%;
-  max-width: 750px;
+  width: 680px;
   height: 166px;
   background: #f2fdff;
 
   border: 1px solid rgba(64, 75, 101, 0.7);
   border-radius: 10px;
-  margin-bottom: 1.8rem;
+  margin-bottom: 1rem;
   cursor: pointer;
 }
 
@@ -189,7 +188,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 127.7%;
 
     color: #0a2463;
