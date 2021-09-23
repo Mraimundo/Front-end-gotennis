@@ -125,6 +125,16 @@
   display: flex;
   flex-direction: column;
   padding: 1.2rem 1rem;
+
+  > span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 148.3%;
+
+    color: #2d2a32;
+  }
 }
 
 .wrapperInfo {
@@ -134,7 +144,7 @@
   button {
     width: 100%;
     max-width: 155px;
-    height: 37;
+    height: 36;
     padding: 5px 20px;
     background: #2174ee;
 
@@ -153,6 +163,16 @@
   }
   p {
     margin-left: 1.2rem;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 148.3%;
+
+    text-align: center;
+
+    color: rgba(64, 75, 101, 0.7);
   }
 }
 
@@ -167,6 +187,13 @@
   flex-direction: column;
   h2 {
     margin-bottom: 1.3rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    color: #2d2a32;
   }
 
   table {
@@ -175,6 +202,13 @@
     border-collapse: collapse;
     td {
       padding: 0 0 0 0.6rem;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1rem;
+      line-height: 148.3%;
+
+      color: #2d2a32;
     }
   }
   table,
@@ -195,17 +229,58 @@
   margin-top: 0.3rem;
   h2 {
     margin-bottom: 1.3rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    color: #2d2a32;
   }
   p {
     margin-bottom: 0.6rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 127.7%;
+
+    color: #0a2463;
   }
   span {
     margin-bottom: 1.6rem;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 148.3%;
+
+    color: #2d2a32;
   }
 }
 
 .footerContent {
-  margin-top: 2.1rem;
+  margin-top: 4rem;
+  h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 97.7%;
+
+    color: #2d2a32;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 127.7%;
+
+    color: #0a2463;
+  }
 }
 
 .btnFooter {
