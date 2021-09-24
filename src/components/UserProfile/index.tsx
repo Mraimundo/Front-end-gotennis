@@ -2,13 +2,10 @@ import Image from 'next/image';
 import {useRouter} from 'next/router';
 import Link from 'next/link';
 
-import { BiCaretDown } from "react-icons/bi";
-import {  GiHamburgerMenu, GiTennisCourt } from "react-icons/gi";
-import {  RiMedalFill } from "react-icons/ri";
-import {  FaSignOutAlt, FaCog } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
+import {BiUserPlus} from "react-icons/bi";
+
 import styles from './styles.module.scss';
-import { Performance } from '../Performance';
-import { Graphics } from '../Graphics';
 import router from 'next/router';
 
 
@@ -16,7 +13,16 @@ export function UserProfile () {
   const router= useRouter()
   return(
     <div className={styles.profileContainer} >
-      <Image src="/profile-01.png" width={940} height={90} alt="Profile" />
+      <div className={styles.userAdd}> 
+        <Image src="/amanda-01.svg" width={100} height={100} alt="Profile" />
+        <div>
+          <BiUserPlus/>
+          <span>seguir</span>
+        </div>
+      </div>
+      <div>
+        <Image src="/profile-01.png" width={750} height={90} alt="Profile" />
+      </div>
       <div className={styles.profileContent}>
         <div className={styles.profileContentInfo}>
           <div>
@@ -25,16 +31,16 @@ export function UserProfile () {
           </div>
           <div className={styles.sociaMidia}>
             <div>
-              <Image src="/profile-facebook.svg" width={28} height={28} alt="Facebook" />
+              <FaFacebook/>
             </div>
             <div>
-              <Image src="/profile-instagram.svg" width={28} height={28} alt="Instagram" />
+              <FaInstagram/>
             </div>
             <div>
-              <Image src="/profile-linkedin.svg" width={28} height={28} alt="Linkedin" />
+              <FaLinkedin/>
             </div>
             <div>
-              <Image src="/profile-youtube.svg" width={28} height={28} alt="Youtube" />
+              <FaYoutube/>
             </div>
           </div>
         </div>
@@ -59,7 +65,6 @@ export function UserProfile () {
         <div className={styles.listContainer}>
           <ul>
             <li onClick={()=> router.push("/performance")}>
-              {/* <Link href="/performance"/> */}
               <a>Desempenho</a>
             </li>
             <li onClick={()=> router.push("/activities")}>
@@ -74,7 +79,6 @@ export function UserProfile () {
           </ul>
         </div>
       </div>
-
     </div>
   )
 }

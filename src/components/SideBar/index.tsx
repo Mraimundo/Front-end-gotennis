@@ -3,7 +3,7 @@ import Image from 'next/image';
 import {useRouter} from 'next/router';
 
 import { BiHomeAlt, BiTennisBall, BiBarChartAlt2, BiMenu, BiMenuAltLeft } from "react-icons/bi";
-import {  GiHamburgerMenu, GiTennisCourt } from "react-icons/gi";
+import {  GiTennisCourt } from "react-icons/gi";
 import {  RiMedalFill } from "react-icons/ri";
 import {  FaSignOutAlt, FaCog } from "react-icons/fa";
 

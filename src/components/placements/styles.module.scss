@@ -40,9 +40,8 @@
   }
 
   button {
-    width: 100%;
-    max-width: 9rem;
-    height: 2rem;
+    width: 184px;
+    height: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,6 +60,9 @@
 
 .infoContainer {
   width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 1rem;
   > p {
     font-family: Roboto;
@@ -74,20 +76,46 @@
 }
 
 .infoBox {
-  width: 100%;
-  max-width: 724px;
-  height: 225px;
+  position: relative;
+  width: 724px;
+  height: 409px;
   background: var(--white);
   border-radius: 10px;
   padding: 1.5rem 1.5rem;
   margin-top: 1rem;
-  &::after {
+  &::before {
+    position: absolute;
     content: "";
-    width: 258px;
-    height: 2px;
+    width: 52;
+    height: 52px;
+    border-radius: 50%;
+
     background: #0a2463;
   }
 }
+
+// .divDetail {
+//   position: absolute;
+//   width: 52;
+//   height: 52px;
+//   background: #0a2463;
+//   border-radius: 50%;
+//   top: -300;
+//   // left: 0;
+//   // right: 0;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   p {
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 0.9rem;
+//     line-height: 148.3%;
+
+//     color: #ffffff;
+//   }
+// }
 
 .infoContent {
   > div {
@@ -112,93 +140,88 @@
     }
   }
 }
-
-.setsContainer {
+.infoUser {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    p {
-      margin-left: 1rem;
+    > p {
       font-family: Sora;
       font-style: normal;
       font-weight: 600;
-      font-size: 0.8rem;
+      font-size: 1rem;
       line-height: 97.7%;
 
       letter-spacing: -0.03em;
 
       color: #0a2463;
     }
+    span {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.9rem;
+      line-height: 97.7%;
+
+      color: rgba(64, 75, 101, 0.7);
+    }
   }
+}
+
+.divUser {
+  span {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 97.7%;
+
+    color: rgba(64, 75, 101, 0.7);
+  }
+  svg {
+    margin-right: 0.5rem;
+    color: rgba(64, 75, 101, 0.7);
+  }
+}
+
+.setsContainer {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+}
+
+.areaChartLinear {
+  width: 676px;
+  height: 244px;
+  background: #e5e5e5;
 }
 
 .setsContent {
   display: flex;
-  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
   div {
-    svg {
-      width: 22px;
-      height: 32px;
-    }
-    span {
-      margin-left: 1rem;
-    }
-  }
-  button {
+    margin-top: 1rem;
+    margin-right: 0.8rem;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 106px;
-    height: 1.93rem;
-    background: #2174ee;
-    border: none;
-    border-radius: 12.439px;
-    p {
-      // margin-right: 0.3rem;
-      color: var(--white);
-    }
-    span {
-      margin-left: 0.3rem;
-      color: var(--white);
-    }
-  }
-}
-
-.setsFooterContainer {
-  display: flex;
-  justify-content: space-between;
-  div {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     > p {
-      margin-left: 1rem;
-      font-family: Sora;
+      font-family: Roboto;
       font-style: normal;
-      font-weight: normal;
-      font-size: 0.8rem;
+      font-weight: bold;
+      font-size: 1rem;
       line-height: 97.7%;
-      letter-spacing: -0.03em;
 
-      color: #2d2a32;
+      color: #0a2463;
     }
-  }
-}
 
-.footerContent {
-  > div {
-    margin-bottom: 1rem;
-
-    > span {
+    span {
       font-family: Roboto;
       font-style: normal;
       font-weight: normal;
-      font-size: 0.8rem;
-      line-height: 97.7%;
+      font-size: 0.9rem;
+      line-height: 127.7%;
 
       color: rgba(64, 75, 101, 0.7);
     }
