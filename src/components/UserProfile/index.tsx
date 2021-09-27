@@ -70,10 +70,10 @@ export function UserProfile () {
             <li onClick={()=> router.push("/activities")}>
               <a>Atividades</a>
             </li>
-            <li>
+            <li onClick={()=> router.push("/placements")}>
               <a>Colocações</a>
             </li>
-            <li>
+            <li onClick={()=> router.push("/schedules")}>
               <a>Programação</a>
             </li>
           </ul>

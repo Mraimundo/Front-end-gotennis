@@ -1,0 +1,140 @@
+.performanceContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.performanceContent {
+  margin-top: 1.4rem;
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
+  .buttonCorBlue {
+    width: 100px;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0.85rem;
+    background: #0a2463;
+    border-radius: 50px;
+    border: none;
+    color: var(--white);
+    margin-right: 2rem;
+
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 97.7%;
+    text-align: center;
+    letter-spacing: -0.02em;
+  }
+
+  button {
+    width: 184px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0.85rem;
+    background: rgba(64, 75, 101, 0.1);
+    border-radius: 50px;
+    border: none;
+    color: #0a2463;
+    font-size: 0.9rem;
+  }
+
+  .postagens {
+    margin-left: 2rem;
+  }
+}
+
+.infoContainer {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  > p {
+    transform: translateX(-230px);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 140%;
+
+    color: rgba(64, 75, 101, 0.7);
+  }
+}
+
+.infoBox {
+  position: relative;
+  width: 600px;
+  height: 168px;
+  background: var(--white);
+  border-radius: 10px;
+  padding: 1.5rem 1.5rem;
+  margin-top: 1rem;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 52;
+    height: 52px;
+    border-radius: 50%;
+
+    background: #0a2463;
+  }
+}
+
+.infoUser {
+  div {
+    > p {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 97.7%;
+
+      letter-spacing: -0.03em;
+
+      color: #0a2463;
+    }
+    span {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 0.9rem;
+      line-height: 97.7%;
+
+      color: rgba(64, 75, 101, 0.7);
+    }
+  }
+  button {
+    margin-top: 3rem;
+    width: 200px;
+    height: 35px;
+    background: #2174ee;
+    border-radius: 50px;
+    border: none;
+
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 97.7%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #ffffff;
+  }
+}
