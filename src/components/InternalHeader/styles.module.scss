@@ -30,13 +30,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 
   p {
     font-family: Work Sans;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #1f1f1f;
   }
 
@@ -50,6 +50,26 @@
   }
 
   .image {
-    margin-left: 1rem;
+    margin-left: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .headerContent {
+    padding: 0 20px 0 20px;
+
+    .userContent {
+      margin-left: 0px;
+      span {
+        display: none;
+      }
+      p {
+        display: none;
+      }
+
+      .image {
+        margin-left: 0.4rem;
+      }
+    }
   }
 }

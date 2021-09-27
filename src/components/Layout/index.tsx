@@ -11,7 +11,6 @@ export function Layout(
       <Aside/>
       <Header />
       <main>
-
         {children}
       </main>
     </div>

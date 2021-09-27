@@ -1,6 +1,11 @@
 .sidebarMenu {
   position: fixed;
 }
+@media screen and (max-device-width: 640px), screen and (max-width: 640px) {
+  .sidebarMenu {
+    display: none;
+  }
+}
 
 .toogleMenu {
   width: 70px;

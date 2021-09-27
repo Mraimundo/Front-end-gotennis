@@ -31,6 +31,13 @@
       color: rgba(64, 75, 101, 0.7);
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    button {
+      width: 320px;
+      height: 36px;
+    }
+  }
 }
 
 .wrapper {
@@ -38,6 +45,24 @@
   height: 609px;
   padding: 30px 20px;
   background: var(--white);
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+    max-width: 320px;
+    height: 419px;
+  }
+}
+
+@media only screen and (width: 320px) {
+  .postsContainer {
+    padding: 0 20px 0 20px;
+
+    button {
+      width: 300px;
+    }
+  }
 }
 
 .headerContainer {
@@ -83,7 +108,7 @@
 }
 
 .sectionInfo {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 
   p {
     font-family: Roboto;
@@ -100,13 +125,27 @@
   display: flex;
 
   .bxsHeart {
-    margin: 0 1rem 0 0;
+    margin: 0 0.4rem 0 0;
+    svg {
+      width: 22px;
+      height: 22px;
+    }
   }
   .bxsShare {
-    margin: 0 1rem 0 0;
+    margin: 0 0.4rem 0 0;
+    svg {
+      cursor: pointer;
+      width: 22px;
+      height: 22px;
+    }
   }
   .bxsComment {
-    margin: 0 1rem 0 0;
+    margin: 0 0.4rem 0 0;
+    svg {
+      cursor: pointer;
+      width: 22px;
+      height: 22px;
+    }
   }
   div {
     display: flex;

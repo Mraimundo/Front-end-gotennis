@@ -1,6 +1,11 @@
 import Image from 'next/image';
 import {  GoComment } from "react-icons/go";
 import {  FiUserPlus } from "react-icons/fi";
+import {  MdFavoriteBorder } from "react-icons/md";
+import {  AiOutlineShareAlt } from "react-icons/ai";
+import {  BiComment } from "react-icons/bi";
+
+
 import {  BiDotsHorizontalRounded } from "react-icons/bi";
 
 
@@ -36,13 +41,13 @@ export function Posts () {
           </section>
           <footer className={styles.footerInfo}>
             <div className={styles.bxsHeart}>
-              <Image src="/icons/bxs-heart.png" width={28} height={28} alt="Post" />
+              <MdFavoriteBorder/>
             </div>
             <div className={styles.bxsShare}>
-              <Image src="/icons/bx-share-alt.png" width={28} height={28} alt="Post" />
+              <AiOutlineShareAlt/>
             </div>
             <div className={styles.bxsComment}>
-              <Image src="/icons/bx-comment.png" width={28} height={28} alt="Post" />
+              <BiComment/>
             </div>
             <div>
               <span>Seja o primeiro a comentar</span>
