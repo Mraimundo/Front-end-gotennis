@@ -6,15 +6,14 @@ import { FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 import {BiUserPlus} from "react-icons/bi";
 
 import styles from './styles.module.scss';
-import router from 'next/router';
 
 
 export function UserProfile () {
-  const router= useRouter()
+  const router = useRouter()
   return(
     <div className={styles.profileContainer} >
       <div className={styles.userAdd}> 
-        <Image src="/amanda-01.svg" width={100} height={100} alt="Profile" />
+        <Image src="/amanda-01.svg" width={100} height={90} alt="Profile" />
         <div>
           <BiUserPlus/>
           <span>seguir</span>

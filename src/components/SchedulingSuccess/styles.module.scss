@@ -7,8 +7,8 @@
 
 .performanceContent {
   width: 100%;
-  max-width: 940px;
-  height: 370px;
+  max-width: 750px;
+  height: 300px;
 
   display: flex;
   justify-content: center;
@@ -29,10 +29,7 @@
       font-family: Sora;
       font-style: normal;
       font-weight: 600;
-      font-size: 1.8rem;
-      line-height: 97.7%;
-
-      letter-spacing: -0.03em;
+      font-size: 1.2rem;
 
       color: #0a2463;
 
@@ -56,6 +53,19 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .performanceInfo {
+    div {
+      h1 {
+        text-align: center;
+      }
+      p {
+        width: 302px;
+      }
+    }
+  }
+}
+
 .iconLike {
   margin-bottom: 1.4rem;
   svg {
@@ -66,10 +76,10 @@
 }
 
 .btnToBack {
-  margin-top: 3rem;
+  margin-top: 2rem;
   button {
-    width: 287px;
-    height: 52px;
+    width: 220px;
+    height: 42px;
 
     background: #2174ee;
     border-radius: 50px;
@@ -78,7 +88,7 @@
     font-family: Sora;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 97.7%;
 
     letter-spacing: -0.02em;
