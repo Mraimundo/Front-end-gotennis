@@ -41,7 +41,9 @@ export function InternalTournalment () {
         <main className={styles.wrapper}>
             <div className={styles.sectionContainer}>
               <div className={styles.sectionContent}>
-                <Image src="/onde-jogar.svg" alt="Onde Jogar" width={710} height={291}/>
+                <div className={styles.image}>
+                  <Image src="/onde-jogar.svg" alt="Onde Jogar" width={710} height={291}/>
+                </div>
                 <div className={styles.sectionInfo}>
                   <span>10 de dezembro de 2020</span>
                   <p>Opus igitur est omni specie, “Tu autem in specie, non videntur, nec res est</p>
@@ -52,7 +54,9 @@ export function InternalTournalment () {
         <main className={styles.wrapper}>
             <div className={styles.sectionContainer}>
               <div className={styles.sectionContent}>
-                <Image src="/mulher-tennis.png" alt="Publicação" width={710} height={291}/>
+                <div className={styles.image}>
+                  <Image src="/mulher-tennis.png" alt="Publicação" width={710} height={291}/> 
+                </div>
                 <div className={styles.sectionInfo}>
                   <span>10 de dezembro de 2020</span>
                   <p>Opus igitur est omni specie, “Tu autem in specie, non videntur, nec res est</p>

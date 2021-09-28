@@ -5,14 +5,20 @@
     font-style: normal;
     font-weight: 600;
     font-size: 1.1rem;
-    line-height: 97.7%;
-
-    letter-spacing: -0.03em;
 
     color: #0a2463;
     text-align: center;
     transform: translateX(-92px);
     margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .internalContainer {
+    h1 {
+      transform: translateX(15px);
+      text-align: left;
+    }
   }
 }
 
@@ -27,6 +33,18 @@
   display: flex;
   transform: translateX(-200px);
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    transform: translateX(-46px);
+  }
+}
+
+@media only screen and (width: 320px) {
+  .title {
+    transform: translateX(-68px);
+  }
 }
 
 .btnStarting {
@@ -109,11 +127,23 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .list {
+    height: 45px;
+  }
+}
+
 .searchcontainer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .searchcontainer {
+    flex-direction: column;
+  }
 }
 
 .selectButton {
@@ -135,6 +165,14 @@
     line-height: 97.7%;
 
     color: rgba(64, 75, 101, 0.7);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .selectButton {
+    height: 45px;
+    margin-bottom: 0.9rem;
+    margin-right: 0;
   }
 }
 

@@ -5,14 +5,20 @@
     font-style: normal;
     font-weight: 600;
     font-size: 1.1rem;
-    line-height: 97.7%;
-
-    letter-spacing: -0.03em;
 
     color: #0a2463;
     text-align: center;
     transform: translateX(-92px);
     margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .internalContainer {
+    h1 {
+      transform: translateX(15px);
+      text-align: left;
+    }
   }
 }
 
@@ -27,6 +33,18 @@
   display: flex;
   transform: translateX(-200px);
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    transform: translateX(-46px);
+  }
+}
+
+@media only screen and (width: 320px) {
+  .title {
+    transform: translateX(-68px);
+  }
 }
 
 .btnStarting {
@@ -110,6 +128,12 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .list {
+    height: 45px;
+  }
+}
+
 .wrapper {
   width: 100%;
   max-width: 750px;
@@ -119,6 +143,13 @@
   border: 1px solid #ebecf2;
   border-radius: 10px;
   margin-bottom: 1rem;
+}
+
+@media only screen and (width: 320px) {
+  .wrapper {
+    width: 370px;
+    height: 100%;
+  }
 }
 
 .wrapperContainer {
@@ -182,6 +213,13 @@
   margin-top: 1.6rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .tableContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 .tableContent1 {
   display: flex;
   flex-direction: column;
@@ -191,13 +229,13 @@
     font-style: normal;
     font-weight: bold;
     font-size: 1rem;
-    line-height: 97.7%;
 
     color: #2d2a32;
   }
 
   table {
-    width: 370px;
+    width: 100%;
+    max-width: 370px;
     height: 220px;
     border-collapse: collapse;
     td {
@@ -219,10 +257,25 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .tableContent1 {
+    h2 {
+      font-size: 1.2rem;
+    }
+  }
+}
+
 .tableContent2 {
   display: flex;
   flex-direction: column;
   margin-left: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .tableContent2 {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
 }
 
 .headerContent {
@@ -260,6 +313,21 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .headerContent {
+    margin-top: 1rem;
+    h2 {
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+    span {
+      font-size: 1.1rem;
+    }
+  }
+}
+
 .footerContent {
   margin-top: 4rem;
   h2 {
@@ -280,6 +348,18 @@
     line-height: 127.7%;
 
     color: #0a2463;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footerContent {
+    margin-top: 1rem;
+    h2 {
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 1.1rem;
+    }
   }
 }
 
