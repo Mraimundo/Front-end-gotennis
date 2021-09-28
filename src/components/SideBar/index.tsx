@@ -9,7 +9,6 @@ import {  FaSignOutAlt, FaCog } from "react-icons/fa";
 
 import styles from './styles.module.scss';
 
-
 export function SideBar () {
     const router= useRouter()
     const [sidbarExpanded, setSidbarExpanded] = useState(false);

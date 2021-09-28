@@ -55,22 +55,22 @@ export function Winners () {
             <div className={styles.userInfo}>
               <div>
                 <span>1</span>
-                <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+                <Image src="/pedro.svg" alt="Onde Jogar" width={40} height={40}/>
                 <p>Evandro Silva</p>
               </div>
               <div>
                 <span>2</span>
-                <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+                <Image src="/pedro.svg" alt="Onde Jogar" width={40} height={40}/>
                 <p>Pedro Cabral</p>
              </div>
               <div>
                 <span>3</span>
-                <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+                <Image src="/eduarda.svg" alt="Onde Jogar" width={40} height={40}/>
                 <p>Ana Couto</p>
               </div>
               <div>
                 <span>4</span>
-                <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+                <Image src="/pedro.svg" alt="Onde Jogar" width={40} height={40}/>
                <p>Wagner Souza</p>
             </div>
           </div>
@@ -78,22 +78,22 @@ export function Winners () {
           <div className={styles.userInfo}>
             <div>
               <span>5</span>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/pedro.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Marcelo Augusto</p>
             </div>
             <div>
               <span>6</span>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/pedro.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>João Vitor</p>
             </div>
             <div>
               <span>7</span>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/eduarda.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Patricia Silva</p>
             </div>
             <div>
               <span>8</span>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/pedro.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>André Oliveira</p>
             </div>
           </div>
@@ -101,22 +101,22 @@ export function Winners () {
           <div className={styles.userInfo}>
             <div>
               <span>09</span>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/eduarda.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Marisa Monte</p>
             </div>
             <div>
               <span>10</span>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/eduarda.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Eduarda Lima</p>
             </div>
             <div>
               <span>11</span>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/pedro.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Rafael dos Santos</p>
             </div>
             <div>
               <span>12</span>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/eduarda.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Jéssica Soares</p>
             </div>
           </div>

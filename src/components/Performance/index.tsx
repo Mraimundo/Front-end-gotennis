@@ -1,12 +1,10 @@
 import React, { PureComponent } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, AreaChart, Area , Legend, ResponsiveContainer } from 'recharts';
+import {  AreaChart, Area , ResponsiveContainer } from 'recharts';
 
 import Image from 'next/image';
 
 import { BiCaretDown, BiBarChartAlt2 } from "react-icons/bi";
-import {  GiHamburgerMenu, GiTennisCourt } from "react-icons/gi";
 import {  RiMedalFill } from "react-icons/ri";
-import {  FaSignOutAlt, FaCog } from "react-icons/fa";
 import styles from './styles.module.scss';
 
 

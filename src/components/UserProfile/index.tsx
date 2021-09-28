@@ -20,8 +20,8 @@ export function UserProfile () {
           <span>seguir</span>
         </div>
       </div>
-      <div>
-        <Image src="/profile-01.png" width={750} height={90} alt="Profile" />
+      <div className={styles.banner}>
+        <Image src="/profile-01.png" width={750} height={100} alt="Profile" />
       </div>
       <div className={styles.profileContent}>
         <div className={styles.profileContentInfo}>

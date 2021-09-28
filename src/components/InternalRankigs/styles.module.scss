@@ -6,22 +6,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateX(-200px);
+  transform: translateX(-170px);
   margin-bottom: 1.2rem;
 
   h1 {
     font-family: Sora;
     font-style: normal;
     font-weight: 600;
-    font-size: 1.6rem;
-    line-height: 97.7%;
-
-    letter-spacing: -0.03em;
+    font-size: 1.1rem;
 
     color: #0a2463;
     text-align: center;
     margin-left: 1.5rem;
-    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .infoHeader {
+    transform: translateX(18px);
+  }
+}
+
+@media only screen and (width: 320px) {
+  .infoHeader {
+    transform: translateX(15px);
   }
 }
 
@@ -34,7 +42,7 @@
 
 .title {
   display: flex;
-  transform: translateX(-326px);
+  // transform: translateX(326px);
   margin-bottom: 1rem;
 }
 
@@ -88,8 +96,8 @@
 
 .list {
   width: 100%;
-  max-width: 940px;
-  height: 46px;
+  max-width: 750px;
+  height: 36px;
 
   display: flex;
   justify-content: start;
@@ -110,11 +118,16 @@
 
     font-family: Roboto;
     font-style: normal;
-    // font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 148.3%;
 
     color: #0a2463;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    transform: translateX(30px);
   }
 }
 
@@ -163,7 +176,7 @@
     justify-content: space-around;
     align-items: center;
     max-width: 320px;
-    height: 46px;
+    height: 36px;
     background: transparent;
     background: var(--white);
 
@@ -180,7 +193,7 @@
     input {
       width: 100%;
       max-width: 320px;
-      height: 46px;
+      height: 36px;
 
       background: none;
       border: none;
@@ -188,7 +201,7 @@
       font-family: Roboto;
       font-style: normal;
       font-weight: normal;
-      font-size: 1rem;
+      font-size: 0.9rem;
       line-height: 97.7%;
 
       color: rgba(64, 75, 101, 0.7);
@@ -199,7 +212,7 @@
 .selectButton {
   width: 100%;
   max-width: 320px;
-  height: 46px;
+  height: 36px;
   background: var(--white);
   display: flex;
   justify-content: space-between;
@@ -211,7 +224,7 @@
   span {
     font-family: Roboto;
     font-style: normal;
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 97.7%;
 
     color: rgba(64, 75, 101, 0.7);
@@ -234,6 +247,14 @@
     align-items: center;
     margin-bottom: 1rem;
     p {
+      font-family: Roboto;
+      font-style: normal;
+      // font-weight: 500;
+      font-size: 0.8rem;
+      line-height: 148.3%;
+
+      color: #2d2a32;
+
       margin-left: 0.6rem;
     }
   }

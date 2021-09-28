@@ -12,7 +12,7 @@ export function InternalRankigs () {
   return(
     <div className={styles.internalContainer} >
       <div className={styles.infoHeader}>
-        <Image src="/top-tennis.svg" alt="Onde Jogar" width={81} height={81}/>
+        <Image src="/top-tennis.svg" alt="Onde Jogar" width={50} height={50}/>
         <h1>2020 - TOP TENIS BEACH TENIS</h1>
       </div>
       <div className={styles.internalContent} >
@@ -51,49 +51,49 @@ export function InternalRankigs () {
               <p>Evandro Silva</p>
             </div>
             <div>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/eduarda.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Pedro Cabral</p>
             </div>
             <div>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/eduarda.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Ana Couto</p>
             </div>
             <div>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/evandro.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Wagner Souza</p>
             </div>
 
             <div>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/pedro.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Marcelo Augusto</p>
             </div>
             <div>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/evandro.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>João Vitor</p>
             </div>
             <div>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/eduarda.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Patricia Silva</p>
             </div>
             <div>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/pedro.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>André Oliveira</p>
             </div>
 
             <div>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/eduarda.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Marisa Monte</p>
             </div>
             <div>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/evandro.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Eduarda Lima</p>
             </div>
             <div>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/pedro.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Rafael dos Santos</p>
             </div>
             <div>
-              <Image src="/inscritos.png" alt="Onde Jogar" width={40} height={40}/>
+              <Image src="/eduarda.svg" alt="Onde Jogar" width={40} height={40}/>
               <p>Jéssica Soares</p>
             </div>
           </div>

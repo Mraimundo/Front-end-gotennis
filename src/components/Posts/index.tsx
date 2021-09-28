@@ -1,7 +1,10 @@
 import Image from 'next/image';
+import { useState } from 'react';
 import {  GoComment } from "react-icons/go";
 import {  FiUserPlus } from "react-icons/fi";
-import {  MdFavoriteBorder } from "react-icons/md";
+import {  MdFavorite } from "react-icons/md";
+
+
 import {  AiOutlineShareAlt } from "react-icons/ai";
 import {  BiComment } from "react-icons/bi";
 
@@ -13,6 +16,7 @@ import styles from './styles.module.scss';
 
 
 export function Posts () {
+  const [favoritButton, setFavoritBUtton] = useState(false);
   return(
     <div className={styles.postsContainer} >
       <button>
@@ -40,8 +44,8 @@ export function Posts () {
             </div>
           </section>
           <footer className={styles.footerInfo}>
-            <div className={styles.bxsHeart}>
-              <MdFavoriteBorder/>
+            <div  onClick={() => setFavoritBUtton(!favoritButton)} className={`${styles.bxsHeart} ${favoritButton ? styles.activeButton : null}`}>
+              <MdFavorite/>
             </div>
             <div className={styles.bxsShare}>
               <AiOutlineShareAlt/>

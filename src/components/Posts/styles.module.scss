@@ -70,6 +70,7 @@
   justify-content: space-between;
   div {
     svg {
+      cursor: pointer;
       width: 22px;
       height: 22px;
       margin-right: 0.4rem;
@@ -127,6 +128,7 @@
   .bxsHeart {
     margin: 0 0.4rem 0 0;
     svg {
+      cursor: pointer;
       width: 22px;
       height: 22px;
     }
@@ -163,5 +165,11 @@
     span:nth-child(1) {
       margin-bottom: 0.2rem;
     }
+  }
+}
+
+.activeButton {
+  svg {
+    color: #fb3640;
   }
 }
