@@ -1,0 +1,171 @@
+.tournamentsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+
+    h1 {
+      font-family: Sora;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.2rem;
+      line-height: 97.7%;
+
+      letter-spacing: -0.03em;
+
+      color: #0a2463;
+    }
+  }
+}
+.Wrapper {
+  padding: 20px 0 0 20px;
+  width: 542px;
+  height: 500px;
+  background: var(--white);
+}
+
+.WrapperContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.HeaderContent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.4rem;
+  p {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: left;
+
+    color: #2d2a32;
+  }
+}
+
+.participanteContent {
+  margin-bottom: 1.5rem;
+  p {
+    margin-bottom: 0.9rem;
+  }
+  div {
+    svg {
+      margin-bottom: 1rem;
+      width: 48px;
+      height: 48px;
+      color: var(--background-color);
+    }
+    span {
+      width: 76;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1rem;
+
+      // text-align: center;
+
+      color: rgba(64, 75, 101, 0.7);
+    }
+  }
+}
+
+.dataContent {
+  margin-bottom: 1rem;
+  p {
+    margin-bottom: 0.9rem;
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+
+    color: #2d2a32;
+  }
+}
+
+.dataInfo {
+  div {
+    margin-bottom: 1rem;
+    input {
+      width: 140px;
+      height: 40px;
+      &:nth-child(2) {
+        margin-left: 0.6rem;
+      }
+    }
+  }
+  span {
+    margin-bottom: 1rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+
+    color: rgba(64, 75, 101, 0.7);
+  }
+}
+
+.localContent {
+  p {
+    margin-bottom: 0.9rem;
+    font-family: Sora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  input {
+    padding-left: 0.5rem;
+    width: 230px;
+    height: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9rem;
+
+    color: rgba(64, 75, 101, 0.7);
+
+    border: 1px solid rgba(64, 75, 101, 0.7);
+
+    border-radius: 10px;
+  }
+}
+
+.btnContinuar {
+  margin-top: 1rem;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  height: 36px;
+  background: #2174ee;
+  opacity: 0.5;
+  border: none;
+  border-radius: 50px;
+  span {
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8rem;
+
+    color: #ffffff;
+  }
+  svg {
+    width: 16;
+    height: 16;
+    color: #ffffff;
+  }
+}
+
+.tournamentsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
